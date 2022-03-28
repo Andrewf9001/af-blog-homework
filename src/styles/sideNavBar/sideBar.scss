@@ -1,0 +1,23 @@
+.sidebar-container {
+  overflow: hidden;
+  height: 100vh;
+  background-color: #f6f6f6;
+
+  .sidebar-wrapper {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 20% 60% 20%;
+
+    .sidebar-img:nth-child(1) {
+      transform: scaleX(-1);
+    }
+
+    .sidebar-btn-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+}

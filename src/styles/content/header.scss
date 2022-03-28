@@ -1,0 +1,17 @@
+.content-header-wrapper {
+  display: grid;
+  grid-template-rows: 3fr 1fr 1fr;
+  height: 350px;
+
+  h1,
+  h2 {
+    margin: 5px 0;
+  }
+
+  .image-wrapper {
+    img {
+      height: 200px;
+      width: 25%;
+    }
+  }
+}

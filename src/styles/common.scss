@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+.App {
+  text-align: center;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  background-color: #160040;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 8px;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    color: #fff;
+    background-color: #79018c;
+  }
+}
+
+i {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
